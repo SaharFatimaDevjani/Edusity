@@ -5,7 +5,8 @@ import p3 from '../images/p3.png'
 
 export default function Program() {
   return (
-    <div  id='program'className='program-main container'>
+    <div  id='program'>
+    <div className='program-main container'>
       <p className='head-p'>OUR PROGRAM</p>
       <h2 className='main-h2'>What We Offer</h2>
       <div className='program-div'>
@@ -19,6 +20,7 @@ export default function Program() {
         <img src={p3} alt="phd"/>
         </div>
       </div>
+    </div>
     </div>
   )
 }

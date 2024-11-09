@@ -4,6 +4,8 @@
   box-sizing: border-box;
   font-family: "Outfit", sans-serif;
   transition: ease-in-out;
+  scroll-behavior: smooth;
+  
 }
 
 .container-head {
@@ -13,6 +15,7 @@
 }
 
 .container {
+  max-width: 1400px;
   width: 90%;
   padding: 2vh 8vw;
   margin: auto;
@@ -112,14 +115,14 @@
 /* program section */
 .program-main {
   text-align: center;
-  padding: 8vh auto;
+  padding-top: 12vh;
 }
 
 .program-div {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
-  height: 68vh;
+  height: 58vh;
   padding: auto;
 }
 
@@ -127,12 +130,10 @@
   margin-top: 10px;
   color: #212ea0;
   font-size: 15px;
-  text-align: center;
   font-weight: 600;
 }
 
 .main-h2 {
-  text-align: center;
   font-size: 32px;
   margin-top: 5px;
   color: #000f38;
@@ -154,7 +155,7 @@
   align-items: center;
   margin: auto;
   padding-right: 10%;
-
+  padding-top: 12vh;
 }
 
 .about-video {
@@ -243,11 +244,18 @@
 }
 
 /* testimonials */
-
+.testimonials{
+  padding-top:10vh ;
+}
 
 /* contact us */
 .contact {
-  margin-top: 10vh;
+  padding-top: 10vh;
+  padding-bottom: 15vh;
+}
+
+.contact .head-p,.contact .main-h2,.testimonials .head-p,.testimonials .main-h2{
+  text-align: center;
 }
 
 .contact-main {
@@ -317,7 +325,7 @@
 }
 .submit-button{
   
-  margin:12px 0;
+  margin:20px 0;
 }
 
 
